@@ -946,7 +946,7 @@ def approval():
     if id in httpCaht:
       print("\33[1;32mYour Token is Successfully Approved")
       print('\033[1;93mYour Token is Successfully Approved ')
-      psb('\033[1;97m[\033[92;1m•\033[1;97m]\033[1;97mYOUR KEY DONE PAID USER ADMIN PERMISSION MD JAHID ISLAM ')
+      psb('\033[1;97m[\033[92;1m•\033[1;97m]\033[1;97mYOUR KEY DONE PAID USER ADMIN PERMISSION MD TAJUL ISLAM ')
       msg = str(os.geteuid())
       time.sleep(0.03)
       print()
